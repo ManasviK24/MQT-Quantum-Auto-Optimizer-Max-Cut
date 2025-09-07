@@ -1,4 +1,4 @@
-# Max-Cut with MQT-QAO (QAOA vs Classical Baseline)
+# Max-Cut with MQT-Quantum Auto Optimizer (QAOA vs Classical Baseline)
 
 **Goal.** Model Max-Cut as a QUBO and solve it with MQT-QAO using a quantum-style algorithm (QAOA) and a classical baseline (Simulated Annealing).  
 **Why.** A clear, reproducible quantum optimization demo for my CV/LinkedIn.
