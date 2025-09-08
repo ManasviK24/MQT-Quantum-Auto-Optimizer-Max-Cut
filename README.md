@@ -62,8 +62,8 @@ QAOA depth `reps ∈ {1,2,3}`; each with `num_runs=5`.
 
 #### Experiment summary
 
-| file                              | reps | num\_runs | qaoa\_cut | sa\_cut | exact\_cut |  note | qaoa\_time\_s |
-| --------------------------------- | ---: | --------: | --------: | ------: | ---------: | :---: | ------------: |
+| file                              | reps | num\_runs | qaoa\_cut | sa\_cut | exact\_cut | note  | qaoa\_time\_s |
+| --------------------------------- | ---: | --------: | --------: | ------: | ---------: | :---- | ------------: |
 | qaoa\_sweep.csv                   |    1 |         5 |     4.100 |   4.100 |      4.100 | ✅=opt |          2.93 |
 | qaoa\_sweep.csv                   |    2 |         5 |     4.100 |   4.100 |      4.100 | ✅=opt |          8.00 |
 | qaoa\_sweep.csv                   |    3 |         5 |     4.100 |   4.100 |      4.100 | ✅=opt |         31.58 |
