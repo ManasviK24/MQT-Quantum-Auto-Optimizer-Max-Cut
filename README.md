@@ -2,7 +2,7 @@
 
 This project solves a classic “split the network into two lively teams” puzzle called **Max-Cut**. Think dots connected by lines: we want two groups so as many lines as possible go **across** the groups. I compared a quantum-style method with a strong classical method on small test graphs. Both found the best answers. Everything’s wrapped with scripts, plots, and exact checks so anyone can rerun the results.
 
-I formulate **Max-Cut** as a **QUBO** and solve it with the **MQT Quantum Auto Optimizer (MQT-QAO)** framework—comparing **QAOA** to a **Simulated Annealing** baseline. I ran parameter sweeps (depths/seeds), verified optima by brute force on small graphs, and exported reproducible artifacts (CSVs + figures). On these instances, both approaches reached the known optimum.
+I formulated **Max-Cut** as a **QUBO** and solve it with the **MQT Quantum Auto Optimizer (MQT-QAO)** framework—comparing **QAOA** to a **Simulated Annealing** baseline. I ran parameter sweeps (depths/seeds), verified optima by brute force on small graphs, and exported reproducible artifacts (CSVs + figures). On these instances, both approaches reached the known optimum.
 
 ---
 
